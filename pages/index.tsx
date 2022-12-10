@@ -3,6 +3,8 @@ import Image from 'next/image'
 
 export default function index() {
   return (
-    <h1>Hello</h1>
+    <div className='container mx-auto'>
+      <input type="text" className="rounded shadow p-2" />
+    </div>
   )
 }
